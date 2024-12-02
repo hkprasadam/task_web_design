@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+        }
+        .navbar_2{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .navbar_2 a{
+            text-decoration: none;
+            color: black
+        }
+        .projects{
+            display: grid;
+            grid-template-columns: repeat(4,auto);
+            width: 90vw;
+            gap: 10px;
+            margin: auto;
+        }
+        .projects div img{
+            width: 100%;
+            height: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar_1"><h1>BR Architech</h1></div>
+        <div class="navbar_2">
+            <h1><a href=""> Projects</a></h1>
+            <h1><a href=""> about</a></h1>
+            <h1><a href=""> contact</a></h1>
+        </div>
+    </div>
+    <div style="position: relative; display: flex; justify-content: center;">
+        <img style="width: 90vw;" src="https://www.w3schools.com/w3images/architect.jpg" alt="">
+        <h1 style="position: absolute;top: 50%;left: 40%; font-size: 70%; display: flex;flex-wrap: wrap;">BR Architech</h1>
+    </div>
+    <div class="projects">
+        <div><img src="https://www.w3schools.com/w3images/house5.jpg"><h1>summer house</h1></div>
+        <div><img src="https://www.w3schools.com/w3images/house2.jpg"><h1>brick house</h1></div>
+        <div><img src="https://www.w3schools.com/w3images/house3.jpg"><h1>renovated</h1></div>
+        <div><img src="https://www.w3schools.com/w3images/house4.jpg"><h1>barn house</h1></div>
+        <div><img src="https://www.w3schools.com/w3images/house5.jpg"><h1>summer house</h1></div>
+        <div><img src="https://www.w3schools.com/w3images/house2.jpg"><h1>brick house</h1></div>
+        <div><img src="https://www.w3schools.com/w3images/house3.jpg"><h1>renovated</h1></div>
+        <div><img src="https://www.w3schools.com/w3images/house4.jpg"><h1>barn house</h1></div>
+    </div>
+        
+       
+</body>
+</html>
